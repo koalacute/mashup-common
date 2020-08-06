@@ -19,4 +19,5 @@ public class RestTemplateService {
     public <T> T get(String url, Class<T> c) {
         return restTemplate.getForObject(url, c);
     }
+
 }
